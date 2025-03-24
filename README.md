@@ -2,7 +2,7 @@
 
 A demonstration project showing how to implement React-like functionality using pure JavaScript. This project recreates core React concepts like component creation and DOM manipulation without any frameworks or dependencies, allowing users to reorder images in a moodboard layout.
 
-![Image Moodboard](https://github.com/EkaterinaGorbunova/image-moodboard/blob/main/moodboard.png)
+![Image Moodboard](https://github.com/EkaterinaGorbunova/image-moodboard/blob/main/public/moodboard.png)
 
 ## Key Features
 - Custom implementation of `React.createElement()` function
