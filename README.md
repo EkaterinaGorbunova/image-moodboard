@@ -1,6 +1,6 @@
-# Image Moodboard - Vanilla JS React-like Implementation
+# Image Moodboard - React-like Implementation using Vanilla JS 
 
-A demonstration project showing how to implement React-like functionality using pure JavaScript. This project recreates core React concepts like component creation and DOM manipulation without any frameworks or dependencies, allowing users to reorder images in a moodboard layout.
+A demonstration project showing how to implement React-like functionality using pure JavaScript. This project recreates core React concepts like DOM manipulation without any frameworks or dependencies, allowing users to reorder images in a moodboard layout.
 
 ![Image Moodboard](https://github.com/EkaterinaGorbunova/image-moodboard/blob/main/public/moodboard.png)
 
@@ -38,11 +38,12 @@ const React = {
 
 1. Clone the repository
 ```bash
-git clone
+git clone https://github.com/EkaterinaGorbunova/image-moodboard.git
 ```
 
 2. Install dependencies
 ```bash
+cd image-moodboard
 npm install
 ```
 
@@ -53,11 +54,16 @@ npm run dev
 
 ## Project Structure
 ```
+├── public/
+│   ├── app.svg          # Application icon
+│   └── moodboard.png    # Project screenshot
 ├── src/
-│   ├── main.js      # Main implementation and element creation
-│   └── style.css    # Styles
-├── index.html       # Entry point
-└── package.json     # Project configuration
+│   ├── main.js         # Core implementation (React-like engine, event handlers)
+│   └── style.css       # Responsive styles and layout
+├── index.html          # Entry point and app container
+├── package.json        # Project configuration and dependencies
+├── .gitignore         # Git ignore rules
+└── README.md          # Project documentation
 ```
 
 ## Educational Value
@@ -66,5 +72,6 @@ This project demonstrates:
 - DOM manipulation techniques
 - Event handling and delegation
 - Modern JavaScript patterns and practices
+
 
 
